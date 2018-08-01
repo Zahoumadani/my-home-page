@@ -3,7 +3,7 @@
 }
 
 
-body{
+body {
   margin: 0px;
   font: 400 15px/1.8 Lato, sans-serif;
 }
@@ -16,10 +16,25 @@ body{
       font-size: 11px !important;
       letter-spacing: 4px;
       opacity: 0.9;
-      text-transform: uppercase;
   }
 
-#myNavbar{
+#myNavbar {
   margin-right: 15px;
+  font-weight: 700;
+}
+
+.navbar .navbar-header a{
+  color: #42DC24;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#myNavbar ul li a {
+  color: #34495E;
+  text-transform: uppercase;
+}
+
+#myNavbar ul li a:hover{
+  color: #8BB5F2;
   font-weight: 900;
 }
