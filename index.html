@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background-video.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,28 +12,36 @@
     <title></title>
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand demo" href="#">Demo</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
+    <nav class="navbar navbar-nav navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand demo" href="#">Menu</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
   </nav>
 
+  <!-- add background video -->
+  <video autoplay loop muted poster="screenshot.jpg" id="background">
+         <source src="./video/Blurred Video of Scripts Being Typed.mp4" type="video/mp4">
+   </video>
 
+  <!-- add text over the video -->
+     <div class="title">
+         <h1 style="font-size:7vw;">Hello There!</h1>
+     </div>
 
   </body>
 </html>
